@@ -1,6 +1,6 @@
 const sum = require("./index");
 
-if (sum(2, 3) !== 5) {
+if (sum(2, 3) !== 6) {
   throw new Error("Test failed ❌");
 }
 
