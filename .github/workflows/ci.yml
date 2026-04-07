@@ -40,7 +40,7 @@ jobs:
         
       # Build and push image to Docker Hub
       - name: Build Docker Image
-        run: docker build -t awaisabdulsalam/devops-week-3-cicd:${{ github.sha }} .
+        run: docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/devops-week-3-cicd:${{ github.sha }} .
 
       - name: Push Image
-        run: docker push awaisabdulsalam/devops-week-3-cicd:${{ github.sha }}
+        run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/devops-week-3-cicd:${{ github.sha }}
