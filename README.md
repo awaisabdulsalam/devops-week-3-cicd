@@ -14,19 +14,25 @@ To build a Simple functions and write test file then trigger Github Actions on p
 git push origin main
 ```
 
-![All Files](screenshots/cicd_build.png.png)
+![All Files](screenshots/cicd_build.png)
 
 ---
 
 ### 2. Actions will run tests on it and give success or failure
 
-![Build Image](screenshots/cicd_test_success.png.png)
+![Build Image](screenshots/cicd_test_success.png)
 
 ---
 
 ### 3. After success image will be built and pushed to Docker Hub
 
-![Run Container](screenshots/cicd_dockerhub_image.png.png)
+![Run Container](screenshots/cicd_dockerhub_image.png)
+
+
+### 4. Structural Diagram
+
+![Run Container](screenshots/cicd_diagram.png)
+
 
 ### What is CI(Continuous Integration)?
 CI is the practice of merging code frequently and automatically testing it every time you make a change.
